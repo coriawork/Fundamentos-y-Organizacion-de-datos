@@ -24,7 +24,7 @@ Antes de ejecutar el programa, se deben cumplir las siguientes precondiciones:
         detalle = file of v_prod;         
         maestro = file of prod;`
 ## Procedimientos
-#### Leer (var archivoDetalle, var regDet)
+#### Leer (var archivoDetalle, var regDet)<a id="leer"></a> 
 ► Se utiliza el procedimiento Leer() para los detalles, si no es final del archivoDetalle escribo en el regDet un registro del archivo, si es el final de archivo del archivoDetalle al regDet se le agrega valor alto
 
     if (not eof(archivoDetalle)) then  // Si no es fin de archivo detalle
@@ -43,11 +43,11 @@ Antes de ejecutar el programa, se deben cumplir las siguientes precondiciones:
         assign (de, 'detalle');  //Asignacion Logica / Fisica 
         reset (ma);              //Apertura de 'ma' por Lectura/Escritura
         reset (de);              //Apertura de 'de' por Lectura/Escritura
-#### ► Leo un detalle con el procedimiento `Leer()` y `mientras` el registro `r1` sea distinto al Valor alto 
+#### ► Leo un detalle con el procedimiento `Leer()` <a hreft="#leer"></a> y `mientras` el registro `r1` sea distinto al Valor alto 
     leerDe(de,r1);               //se escribe en el registro 'r1' lo leido en el archivo 'de'
     while (r1.cod <> VA) do      // se verifica cada vez que avanzo en el registro que no sea el final
     begin
-#### ► Leer un maestro con `Read(ma,rMa)`    
+#### ► Leer un maestro con `Read(ma,rMa)`
         read(ma, rMa);
 #### ► Mientras el codigo del registro maestro es distinto al del registro detalle, lo busco en el archivo maestro hasta que coincidan
 

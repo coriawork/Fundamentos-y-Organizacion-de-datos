@@ -43,7 +43,7 @@ Antes de ejecutar el programa, se deben cumplir las siguientes precondiciones:
         assign (de, 'detalle');  //Asignacion Logica / Fisica 
         reset (ma);              //Apertura de 'ma' por Lectura/Escritura
         reset (de);              //Apertura de 'de' por Lectura/Escritura
-#### ► Leo un detalle con el procedimiento `Leer()` <a hreft="#leer">leer</a> y `mientras` el registro `r1` sea distinto al Valor alto 
+#### ► Leo un detalle con el procedimiento `Leer()` [Mi enlace interno](#leer) y `mientras` el registro `r1` sea distinto al Valor alto 
     leerDe(de,r1);               //se escribe en el registro 'r1' lo leido en el archivo 'de'
     while (r1.cod <> VA) do      // se verifica cada vez que avanzo en el registro que no sea el final
     begin

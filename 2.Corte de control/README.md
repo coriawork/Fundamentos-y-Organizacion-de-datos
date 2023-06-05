@@ -1,4 +1,4 @@
 
  
 ## Screenshots  
-[App Screenshot](https://imgur.com/MwhfPwr)  
+<img href="https://imgur.com/MwhfPwr"></img>

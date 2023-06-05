@@ -1,5 +1,4 @@
 
  
 ## Screenshots  
-
-<img hreft="https://imgur.com/MwhfPwr"></img>
+![App Screenshot](https://imgur.com/MwhfPwr)  

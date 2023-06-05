@@ -1,4 +1,4 @@
 
  
 ## Screenshots  
-![App Screenshot](https://imgur.com/MwhfPwr)  
+![Descripción de la imagen](https://imgur.com/a/p9d3rZN)

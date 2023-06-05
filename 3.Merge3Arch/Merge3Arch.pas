@@ -42,10 +42,13 @@ var
 begin
     assign (det1, 'det1'); assign (det2, 'det2'); assign (det3, 'det3');
     assign (maestro, 'maestro');
+
     rewrite (maestro);
     reset (det1);    reset (det2);    reset (det3);
+
     leer(det1, regd1); leer(det2, regd2); leer(det3, regd3);
     minimo(regd1, regd2, regd3, min);
+    
     while (min.nombre <> valoralto) do
       begin
         write (maestro,min);

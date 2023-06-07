@@ -38,8 +38,6 @@ var
     mae1: maestro;
     regm: ventas;
     i,n: integer;
-
-
 begin
     Read(n);
     for i:= 1 to n do begin
